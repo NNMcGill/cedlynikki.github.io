@@ -14,10 +14,19 @@ body {
   background: var(--bg);
   color: var(--fontColor);
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+p{
+    margin-right: 800px;
+    margin-left: 8px; 
 }
 
 ul {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+
 }
 
 li {
@@ -25,6 +34,14 @@ li {
 }
   
 .list {
+    list-style: square;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 800px;
+    margin-left: 8px;
+}
+
+.l {
     list-style: square;
 }
   
@@ -59,7 +76,7 @@ li {
   .container .btn {
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 15%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     color: var(--btnFontColor);
