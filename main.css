@@ -10,6 +10,12 @@ h1 {
     font-family: Papyrus, fantasy;
 }
 
+.cont {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 800px;
+    margin-left: 8px;
+}
 body {
   background: var(--bg);
   color: var(--fontColor);
@@ -26,7 +32,6 @@ p{
 
 ul {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-
 }
 
 li {
